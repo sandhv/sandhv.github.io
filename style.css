@@ -18,17 +18,20 @@ p {
     background-color: #C2DDEF;
     display: inline-block;
     border-radius: 10px;
-    width: 600px;
+    width: 1000px;
     height: 300px;
     margin-left: 50px;
     padding: 30px;
 }
 
+
+
 img {
     display: inline;
     width: 150px;
     height: 150px;
-
+   
+    
 }
 
 section {
@@ -36,8 +39,10 @@ section {
     padding: 150px;
     width: 600px;
     height: 300px;
-    display: inline-block;
+    display: flex;
 }
+
+
 
 button {
     background-color: #1A303E;
