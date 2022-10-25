@@ -1,4 +1,4 @@
-body {
+body, html {
     background-color: #1A303E;
     margin: 0;
     padding: 0;
@@ -6,43 +6,36 @@ body {
     height: 100%;
 }
 
+section {
+    margin: 180px;
+    margin-right: 80px;
+    width: 600px;
+    height: 300px;
+    padding: 50px;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #C2DDEF;
+  
+}
+
+
+.caja {
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 p {
     color: #525658;
-
 }
-
-.caja {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    background-color: #C2DDEF;
-    display: inline-block;
-    border-radius: 10px;
-    width: 1000px;
-    height: 300px;
-    margin-left: 50px;
-    padding: 30px;
-}
-
-
 
 img {
     display: inline;
     width: 150px;
     height: 150px;
-   
-    
 }
-
-section {
-    margin: 0;
-    padding: 150px;
-    width: 600px;
-    height: 300px;
-    display: flex;
-}
-
-
 
 button {
     background-color: #1A303E;
